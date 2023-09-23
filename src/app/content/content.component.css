@@ -1,0 +1,85 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  select.form-control {
+    height: 38px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-reset {
+    background-color: #ccc;
+    border: none;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .select.form-control {
+    height: 38px;
+  }
+  
+  .error {
+    background-color: red; 
+    color: white; 
+  }
+
+  .yellow-bg {
+    background-color: yellow;
+  }
+  
+  .red-bg {
+    background-color: red;
+    color: white; 
+  }

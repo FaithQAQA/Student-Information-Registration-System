@@ -1,0 +1,93 @@
+:host {
+    display: block;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the header component */
+  app-header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the header title */
+  app-header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  /* Style for the header info paragraph */
+  app-header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Style for the footer component */
+  app-footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the footer info paragraphs */
+  app-footer p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Style for the content component */
+  app-content {
+    padding: 20px;
+  }
+  
+  /* Style for the content form */
+  app-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the content form groups */
+  app-content .form-group {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  /* Style for the content form labels */
+  app-content label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the content form inputs */
+  app-content input,
+  app-content select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the content form buttons */
+  app-content button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  app-content button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the router outlet (this will affect the components displayed in the router outlet) */
+  router-outlet {
+    margin-top: 20px;
+    background-color: aquamarine;
+  }
+  

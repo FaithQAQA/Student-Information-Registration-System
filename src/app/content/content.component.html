@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>Student Information Form</h1>
+    <form>
+      <div class="form-group" [ngClass]="{'error': isUsernameEmpty()}">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username" [(ngModel)]="username">
+      </div>
+      <div class="form-group" [ngClass]="{'error': isEnteredCampusInvalid()}">
+        <label for="campus">Campus</label>
+        <input type="text" id="campus" name="campus" class="form-control" placeholder="Enter your campus" [(ngModel)]="enteredCampus">
+      </div>
+      
+      
+      <div class="form-group" [ngClass]="{'error': isEnteredDepartmentInvalid()}">
+        <label for="department">Department</label>
+        <input type="text" id="department" name="department" class="form-control" placeholder="Enter your department"  [(ngModel)]="enteredDepartment">
+      </div>
+      <div class="form-group" [ngClass]="{'yellow-bg': isAgeLessThan20(), 'red-bg': isInvalidAge()}">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" class="form-control" placeholder="Enter your age" [(ngModel)]="age">
+      </div>
+      <div class="buttons">
+        <button type="reset" class="btn btn-reset">Reset</button>
+        <button type="submit" class="btn btn-submit" (click)="CheckForm()">Submit</button>
+      </div>
+    
+      
+      
+    </form>
+  </div>
+  
